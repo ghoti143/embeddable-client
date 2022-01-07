@@ -1,0 +1,66 @@
+{
+    "type": "FeatureCollection",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "id": "urn:uuid:519cde10-a847-45ee-90ff-1a978f0095c4",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -83.6444091796875,
+                            43.600284023536325
+                        ],
+                        [
+                            -82.59521484375,
+                            43.632099415557754
+                        ],
+                        [
+                            -82.75451660156249,
+                            44.190082025040525
+                        ],
+                        [
+                            -83.6444091796875,
+                            43.600284023536325
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "volumeType": "COA",
+                "descr": "COA test",
+                "maxAltitude": {
+                    "altitude_value": 400.0,
+                    "vertical_reference": {
+                        "value": "W84"
+                    },
+                    "units_of_measure": {
+                        "value": "FT"
+                    }
+                },
+                "operators": [],
+                "validityEnd": "2022-02-08T23:00:00Z",
+                "lowAltitude": {
+                    "altitude_value": 0.0,
+                    "vertical_reference": {
+                        "value": "W84"
+                    },
+                    "units_of_measure": {
+                        "value": "FT"
+                    }
+                },
+                "dataType": "UtmGenericVolume",
+                "name": "COA_Test_1",
+                "active": true,
+                "validityStart": "2020-01-31T00:00:00Z"
+            }
+        }
+    ]
+}
